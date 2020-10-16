@@ -1,0 +1,287 @@
+/* start body */
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  background-color: #f6f6f6;
+  font-family: Arial, Tahoma;
+}
+/* end body */
+/* start contener */
+.contener
+{
+  overflow: hidden;
+}
+/* end contener */
+/* start nav-bar */
+.nav-bar
+{
+  background-color: #fff;
+  height: 70px;
+  border: 1px solid#ccc;
+}
+.nav-bar h1
+{
+  display: initial;
+  margin: 1% 0% 1% 25% ;
+  float: left;
+  color: #000000;
+}
+.nav-bar .nav
+{
+  float: right;
+  margin-right: 35%;
+  padding: 5px;
+  margin: 1% 25% 0% 0%;
+}
+.nav-bar div ul li 
+{
+  padding: 10px;
+  float: left;
+  overflow: hidden;
+} 
+.nav-bar .nav a
+{
+  padding: 5px;
+  text-decoration: none;
+  color: #000000;
+
+}
+/* end nav-bar */
+/* start welcome */
+.welcome{
+  background-color: #f6f6f6;
+  text-align: center;
+  height: 100px;
+  margin: 5%;
+}
+.welcome span {
+  margin-top: 10%;
+}
+/* end welcome */
+/* start box-three */
+.box-three{
+  background-color: #ffffff;
+  overflow: hidden;
+  text-align: center;
+  height: 107px;
+}
+.box-three .contener-box div {
+  float: left;
+  width: 20%;
+  margin: 2% auto;
+}
+.box-three .contener-box div h4 {
+  font-weight: bold;
+}
+.box-three .contener-box div p {
+  color: #bfbfc3;
+}
+.contener-box
+{
+  margin-left: 20%;
+}
+/* end box-three */
+/* start about-us */
+.about-us {
+  display: inline;
+  overflow: hidden;
+}
+.about-us div{
+  float: right;
+  width: 50%;
+  margin: 5% 5% auto;
+}
+.about-us img{
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.about-us div p{
+  color: #bfbfc3;
+}
+/* end about-us */
+/* start box-color */
+.box
+{
+  margin-left: 30%;
+}
+.box-color
+{
+  background-color:#ffffff;
+  max-height: 300px;
+  
+}
+.box-color .box  
+{
+  text-align: left;
+}
+  .green, .plue, .red
+{
+  display: inline-block;
+  margin: 2% auto;
+}
+.green{
+  background-color: #228c75;
+  color: #ffffff;
+  margin: 2% auto;
+  height: 120px;
+  width: 20%;
+}
+.green h3 
+{
+  text-align: center;
+  margin: 5% auto;
+  font-size: 45px;
+}
+.green h5 
+{
+  text-align: center;
+  margin: 5% auto;
+}
+.plue{
+  background-color: #227096;
+  color: #ffffff;
+  margin: 0% 2% auto;
+  height: 120px;
+  width: 20%;
+}
+.plue h3 
+{
+  text-align: center;
+  margin: 5% auto;
+  font-size: 45px;
+}
+.plue h5 
+{
+  text-align: center;
+  margin: 5% auto;
+}
+.red{
+  background-color: #b1393b;
+  color: #ffffff;
+  margin: 2% auto;
+  height: 120px;
+  width: 20%;
+}
+.red h3 
+{
+  text-align: center;
+  margin: 5% auto;
+  font-size: 45px;
+}
+.red h5 
+{
+  text-align: center;
+  margin: 5% auto;
+}
+/* end box-color */
+/* start our-skills */
+.our-skills{
+  background-color: #f6f6f6;
+  width: 80%;
+  margin: 10% auto;
+}
+.our-skills .skills {
+  margin: 10% 10% auto;
+}
+.our-skills .skills h3{
+  text-align: center;
+}
+h4{
+  margin: 2%;
+}
+.our-skills .html {
+  display: flex;
+  margin: 2%;
+  border-right: 20px solid #f6f6f6;
+}
+.our-skills .html h4{
+  padding: 2px;
+}
+.our-skills .html div{
+  background-color: #333333;
+  width: 100%;
+  height: 35px;
+  margin: 2% auto;
+  border-right: 56px solid #fff;
+}
+.our-skills .css{
+  display: flex;
+  margin: 2%;
+  border-right: 50px solid #f6f6f6;
+}
+.our-skills  .css h4{
+  padding: 8px;
+}
+.our-skills .css div {
+  background-color: #333333;
+  width: 100%;
+  height: 35px;
+  margin: 2% auto;
+  border-right: 62px solid #fff;
+}
+.our-skills .javascripit{
+  display: flex;
+  margin: 2%;
+  border-right: 15px solid #f6f6f6;
+}
+.our-skills .javascripit h4{
+  padding: 6px;
+}
+.our-skills .javascripit div{
+  background-color: #333333;
+  width: 100%;
+  height: 35px;
+  margin: 2% auto;
+  border-right: 53px solid #fff;
+}
+.our-skills .php{
+  display: flex;
+  margin: 2%;
+  border-right: 67px solid #f6f6f6;
+}
+.our-skills .php h4{
+  padding: 8px;
+}
+.our-skills .php div{
+  background-color: #333333;
+  width: 100%;
+  height: 35px;
+  margin: 2% auto;
+  border-right: 43px solid #fff;
+}
+.our-skills .mysql{
+  display: flex;
+  margin: 2%;
+  border-right: 14px solid #f6f6f6;
+}
+.our-skills .mysql h4{
+  padding: 0px;
+}
+.our-skills .mysql div{
+  background-color: #333333;
+  width: 100%;
+  height: 35px;
+  margin: 2% auto;
+  border-right: 46px solid #fff;
+}
+/* end our-skills */
+/* start footer */
+.footer{
+  background-color: #333333;
+  height: 50px;
+  text-align: center;
+  padding: 8px;
+  padding-top: 27px;
+  width: 100%;
+}
+.footer span{
+  color: #8a8981;
+  text-align: center;
+  margin: 13% ;
+}
+/* end footer */
